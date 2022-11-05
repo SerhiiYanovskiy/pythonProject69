@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-block = 35157915
+block = int(input("write block number"))
 data = []
 def start_webdrive(block):
     options = webdriver.ChromeOptions()
